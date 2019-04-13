@@ -15,7 +15,11 @@ main {
 }
 
 .divide-row {
+    height: 2em;
     position: absolute;
+    right: -4em;
+    top: calc(50% - 1em);
+    width: 2em;
 }
 
 .tut-row {
