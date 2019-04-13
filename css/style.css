@@ -11,5 +11,10 @@ body {
 main {
     border: 1px solid #333;
     height: 80%;
-    width: 1920px;
+    width: 960px;
+}
+
+.tut-row {
+    height: 240px;
+    width: 100%;
 }
