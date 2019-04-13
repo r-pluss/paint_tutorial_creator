@@ -9,6 +9,9 @@ function addRow(ev){
 function newRow(){
     let el = document.createElement('div');
     el.classList.add('tut-row');
+    let divBtn = document.createElement('div');
+    divBtn.classList.add('div-row');
+    el.appendChild(divBtn);
     return el;
 }
 
