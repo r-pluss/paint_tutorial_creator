@@ -6,6 +6,11 @@ function addRow(ev){
     tutBody.appendChild(row);
 }
 
+function divideRow(ev){
+    console.log(this);
+    console.log(ev);
+}
+
 function newRow(){
     let el = document.createElement('div');
     el.classList.add('tut-row');
@@ -13,6 +18,7 @@ function newRow(){
     let unDivBtn = document.createElement('div');
     divBtn.classList.add('divide-row');
     unDivBtn.classList.add('undivide-row');
+    divBtn.addEventListener('click', divideRow.bind(el), {passive: true});
     el.appendChild(divBtn);
     el.appendChild(unDivBtn);
     return el;
