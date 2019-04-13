@@ -1,0 +1,13 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+main {
+    border: 1px solid #333;
+    height: 80%;
+    width: 80%;
+}
