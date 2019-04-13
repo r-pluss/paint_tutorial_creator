@@ -15,10 +15,15 @@ main {
 }
 
 .divide-row {
-    
+    position: absolute;
 }
 
 .tut-row {
     height: 240px;
+    position: relative;
     width: 100%;
+}
+
+.undivide-row {
+    position: absolute;
 }
