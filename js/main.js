@@ -1,5 +1,5 @@
 const addRowBtn = document.getElementById('add-row-btn');
-const tutBody = document.getElementByTagName('main')[0];
+const tutBody = document.getElementsByTagName('main')[0];
 
 function addRow(ev){
     let row = newRow();
